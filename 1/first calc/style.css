@@ -48,13 +48,13 @@ body{
     margin: 0px;
     display: inline-flex;
 }
-#inputNumber{
+#inputA{
     width: 100px;
     height: 50px;
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 20px;
     margin-right: 0px;
     margin-bottom: 20px;
     border: 5px solid #4A545E;
@@ -77,34 +77,71 @@ body{
     margin: 0px;
     margin-top: 5px;
 }
-
-
-.password{
-    margin: 0px;
-}
-#inputPassword{
-    width: 500px;
+#inputB{
+    width: 100px;
     height: 50px;
     display: flex;
     justify-content: center;
-    padding: 0px;
     margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-bottom: 20px;
     border: 5px solid #4A545E;
     border-radius: 50px;
     outline: none;
     padding: 15px;
-    font-size: 35px;
+    font-size: 50px;
+    font-family: Courier;
+    color: #4D4764;
     text-align: center;
     letter-spacing: 3px;
+}
+.x2{
+    font-size: 70px;
+    font-weight: 600;
+    font-family: Courier;
+    color: #4D4764;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    margin-top: 20px;
+}
+#inputC{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    border: 5px solid #4A545E;
+    border-radius: 50px;
+    outline: none;
+    padding: 15px;
+    font-size: 50px;
+    font-family: Courier;
+    color: #4D4764;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.equal{
+    font-size: 70px;
+    font-weight: 600;
+    font-family: Courier;
+    color: #4D4764;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    margin-top: 20px;
 }
 .btn{
     margin-top: 30px;
     margin-bottom: 30px;
 }
 #button{
-    width: 350px;
-    height: 100px;
+    width: 450px;
+    height: 150px;
     border-radius: 50px;
     border: 4px solid #4A545E;
     font-size: 60px;
