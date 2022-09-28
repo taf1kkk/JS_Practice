@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="name">
+            <p>Calculator</p>
+        </div>
+        <div class="nameUnder">
+            <p>Поиск тройки Пифагора</p>
+        </div>
+        <div class="firstValue">
+            <input type="text" value="A" onfocus="this.value=''" id="inputA">
+            <p class="x">+</p>
+            <input type="text" value="B" onfocus="this.value=''" id="inputB">
+            <p class="x2">+</p>
+            <input type="text" value="C" onfocus="this.value=''" id="inputC">
+        </div>
+        <div class="result">
+            <span id="firstR"></span>
+        </div>
+        <div class="btn">
+            <button id="button" onclick="check()">Проверка</button>
+        </div>
+        <script src="calc.js"></script>
+</body>
+</html>
